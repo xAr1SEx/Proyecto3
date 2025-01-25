@@ -7,7 +7,6 @@ type HeroCardProps = (typeof heroes)[number];
 export const HeroCard: React.FC<HeroCardProps> = ({
   id,
   superhero,
-  publisher,
   alter_ego,
   first_appearance,
   characters,
